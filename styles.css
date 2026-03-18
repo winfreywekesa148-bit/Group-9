@@ -38,12 +38,15 @@ button:hover{
     border-radius: 5px;
 }
 /*Container for products*/
-.products-grip{
+.products-grid{
     display: flex; /* easy to align items in a row or column*/
     flex-wrap: wrap; /*moves text to the next line  */
     justify-content: space-around; /* equal space on both sides of the cards*/
     gap: 20px;
     padding: 20px;
+    flex-direction: row ;
+    align-items: center;
+    
 }
 .product-card{
     background-color: white;
