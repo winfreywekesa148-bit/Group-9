@@ -26,3 +26,14 @@ p{
     font-weight: 400;
     margin: 50%;
 }
+/* Contact us (container) */
+
+
+button{
+    border: none;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: azure;
+    border-radius: 5px;
+}
